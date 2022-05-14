@@ -14,6 +14,24 @@ The goal of this project was to build a comprehensive list of recent vehicles in
 
 The scraping was performed with a basic loop, and pages that resulted in errors were saved and pushed to a separate error file so I could compile and re-run them.
 
+## File Explanation
+Here is a detailed overview of the scripts and the resultant data
+
+### MMYScrapeFinal.py
+This script is the initial gathering of make/model/year combos and their URLs
+
+**Output: KBB_MMY.xlsx**
+
+### MMY-Trim Scrape.py
+This script gathers all the trim options for each MMY, and the URLs to those pages
+
+**Output: KBB_MMY_Trim_URLs.xlsx**
+
+### KBB Model Image Scrape.py
+This script opens each trim URL, gathers the image URL, and compiles the final dataset
+
+**Output: KBB MMYT Final Data.xlsx**
+
 ## Lessons Learned
 
 Coding experience at this time was approximately 1 month. I had just learned that scraping was possible and watched/read enough material to get started. Here's a list of the hurdles and concepts I came across:
