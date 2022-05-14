@@ -20,17 +20,17 @@ Here is a detailed overview of the scripts and the resultant data
 ### MMYScrapeFinal.py
 This script is the initial gathering of make/model/year combos and their URLs
 
-**Output: KBB_MMY.xlsx**
+  **Output: KBB_MMY.xlsx**
 
 ### MMY-Trim Scrape.py
 This script gathers all the trim options for each MMY, and the URLs to those pages
 
-**Output: KBB_MMY_Trim_URLs.xlsx**
+  **Output: KBB_MMY_Trim_URLs.xlsx**
 
 ### KBB Model Image Scrape.py
 This script opens each trim URL, gathers the image URL, and compiles the final dataset
 
-**Output: KBB MMYT Final Data.xlsx**
+  **Output: KBB MMYT Final Data.xlsx**
 
 ## Lessons Learned
 
