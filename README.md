@@ -1,6 +1,12 @@
 # Kelly-Blue-Book
 Scraping KBB website with BS4 for a web development project
 
+```
+Note: I am aware this project could use considerable refactoring to make it more robust, implement OOP, etc. 
+This was one-time use and only the first phase of a project with a tight deadline. It is uploaded as-is.
+I am currently focused on exploring new concepts rather than perfecting what currently exists. 
+```
+
 
 ## Project Overview
 
